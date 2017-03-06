@@ -4,13 +4,13 @@
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-        <meta name="description" content="">
+        <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+        <link rel="canonical" href="{{ site.baseurl }}{{ page.url }}">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
 
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
@@ -31,11 +31,11 @@
 			<input type="checkbox" id="menu-toggle">
 			<label for="menu-toggle" class="toggle-label"><span>menu</span></label>
 				<ul class="menu">
-					<li><a href="index.htm" title="Articles">Blog</a></li>
-					<li><a href="about.htm" title="learn more about me">About</a></li>
-					<li><a href="reference.htm" title="reference">Reference</a></li>
-					<li></li>
-					<li></li>
+					<li><a href="index.html" title="Početna">Početna</a></li>
+					<li><a href="intervjui.html" title="Intervjui">Intervjui</a></li>
+					<li><a href="galerija.html" title="Galerija">Galerija</a></li>
+					<li><a href="recenzije.html" title="Recenzije">Recenzije</a></li>
+					<li><a href="kontakt.html" title="Kontakt">Kontakt</a></li>
 				</ul>
 			</nav>
 		</header>
