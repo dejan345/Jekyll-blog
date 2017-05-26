@@ -4,3 +4,39 @@ body {
 	font-size: $font-size-base;
 }
 
+.sidebar-content {
+	color: white;
+	background-color: #333;
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+		h1 {
+			margin-top: 0;
+		}
+
+}
+
+.sidebar-content ul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.main-content p::first-letter {
+    letter-spacing:0;
+    text-transform:uppercase;
+    color:#c69c6d;
+    font-family:times,serif;
+    font-size:5em;
+    float:left;
+    margin:0.3em 0.15e 0 0;
+    line-height:0.6;
+}
+
+.container-fluid {
+	padding: 0;
+}

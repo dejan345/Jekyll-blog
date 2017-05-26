@@ -34,6 +34,7 @@ exclude:
   - Gemfile.lock
 
   
+paginate: 4
 
 sass:
     sass_dir: _sass

@@ -6,7 +6,7 @@ categories: jekyll update
 author: "Vani"
 ---
 Sve je počelo, kako obično biva u našem društvu, u kafani. Siguran sam da je većina vas prošla kroz
-sličnu diskusiju: „Hajde da otvorimo kafanu!“ A potom „Hajde da osnujemo bend?“To je super ideja! Ko
+sličnu diskusiju: „Hajde da otvorimo kafanu!“ A potom „Hajde da osnujemo bend?“ To je super ideja! Ko
 to ne bi voleo? Neki od nas su to ostvarili do sad ali ko nas ograničava na jedan bend. E kako veče
 odmakne i krigla postaje praznija a um otvoren za svakakve mogučnosti neko se dosetio da počnemo
 da pišemo o muzici. To nam je delovalo prihvatljivo a definitivno najlakše od svega što nam je na umu
